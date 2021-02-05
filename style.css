@@ -23,8 +23,28 @@ hr{
     margin: 342px auto 47px auto;
 }
 
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 /** ============================================================**/
 /** headerクラスからdivへ変更 **/
+header{
+        /* アニメーション */
+        opacity: 0;
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-delay: 0;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    
+}
 .header-container{
     width: 100vw;
     height: 100vh;
