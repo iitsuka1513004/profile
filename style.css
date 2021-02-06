@@ -211,7 +211,7 @@ footer p{
 
 @media(max-width: 767px){
     .header-container{
-        background: url(../code/img/header_sp.png) no-repeat center center;
+        background: url(img/header_sp.png) no-repeat center center;
         background-size: cover;
     }
 }
