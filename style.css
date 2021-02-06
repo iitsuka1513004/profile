@@ -210,7 +210,8 @@ footer p{
 }
 
 @media(max-width: 767px){
-    header{
+    .header-container{
         background: url(../code/img/header_sp.png) no-repeat center center;
+        background-size: cover;
     }
 }
