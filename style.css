@@ -71,9 +71,10 @@ header{
 }
 
 .header-inner02{
-        width: 20px;
-        height: 20px;
-        margin: 8px 8px 0 0;
+    width: 60px;
+    height: 60px;
+    padding: 8px 0 0 8px;
+    margin-top: -200px;
 }
 .header-inner02 img{
         width: 100%;
